@@ -16,12 +16,7 @@
     padding: 2px 4%;
 }
 
-.main {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 45px;
-    margin-top: 15px;
-}
+
 
 nav {
     width: 100%;
@@ -58,15 +53,21 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
-    text-underline-offset: 15px;
+    text-underline-offset: 20px;
     
 }
 
+.main {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 0;
+    margin-left: 50px;
+}
 .canvas-container {
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-left: 100px;
+    margin-left: 90px;
     justify-content: center;
 }
 
@@ -78,8 +79,8 @@ nav ul li a:hover {
     box-shadow: 0 0 12px 9px #9664bc;
 }
 .second-canvas {
-    width: 330px;
-    height: 330px;
+    width: 345px;
+    height: 345px;
     border-radius: 30px;
     background-color: white;
     border: 0 solid #0d0821;
@@ -91,7 +92,7 @@ nav ul li a:hover {
     width: 340px;
     display: flex;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     padding: 0;
     justify-content: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
